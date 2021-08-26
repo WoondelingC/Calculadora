@@ -16,8 +16,10 @@ const Calculadora = () => {
         }
         const operaciones = () => {
             try {
+                
+                // eslint-disable-next-line no-eval
                 setResultado(eval(resultado).toString());
-            
+             
             } catch(err) {
                 setResultado("Error")
             }
