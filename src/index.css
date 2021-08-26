@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#contenedor{
+    background: rgb(67, 67, 82);
+    margin: 0 auto;
+    width: 250px;
+    border: 2px solid black;
+    height: 55vh;
+    margin: 10% auto;
+    border-radius: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#resultado{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#resultado input{
+    width: 90%;
+    padding: 10px;
+}
+#resultado input:placeholder-shown{
+    text-align: end;
+}
+#botones{
+    padding: 10px;
+}
+#botones button{
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+#botones button:hover{
+    background: darkturquoise;
+}
+
+#f1{
+    padding-bottom: 5px;
+}
+#limpiar{
+    width: 50%;
+}
+#borrar{
+    width: 25%;
+}
+#divide{
+    width: 25%;
+}
+
+#f2{
+    padding-bottom: 5px;
+}
+#f2 button{
+    width: 25%;
+}
+
+#f3{
+    padding-bottom: 5px;
+}
+#f3 button{
+    width: 25%;
+}
+
+#f4{
+    padding-bottom: 5px;
+}
+#f4 button{
+    width: 25%;
+}
+
+#cero{
+    width: 35%;
+}
+#igual{
+    width: 48%;
 }
